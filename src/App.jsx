@@ -1,14 +1,20 @@
 // src/App.jsx
 
 import React from 'react';
-import Header from './components/Header'; // Importa el Header que creaste
-import Hero from './components/Hero';     // Importa el Hero que creaste
+import Header from './components/Header';
+import Apa from './components/apa';
+import Hacer from './components/hacer';
+import Reader from './components/reader';
+import ParteAbajo from './components/parteabajo';
 
 function App() {
   return (
     <>
-      <Header />  {/* Renderiza el componente Header */}
-      <Hero />    {/* Renderiza el componente Hero */}
+      <Header />
+      <Apa />
+      <Hacer />
+      <Reader />
+      <ParteAbajo />
     </>
   );
 }
